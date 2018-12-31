@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/musa.css">
 </head>
 
 <body>
@@ -22,13 +23,101 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <nav>
+  <a href="/">Home</a> &#183;
+  <a href="/academic/">Academics</a> &#183;
+  <a href="/outreach/">Outreach</a> &#183;
+  <a href="/professional/">Professional</a> &#183;
+  <a href="/resources/">Resources</a> &#183;
+  <a href="/office/">Office and Merchandise</a>
+</nav>
 
+<div id="sidebar">
+<iframe href="sidebar.html">
+</div>
+
+  <!-- About Section -->
+<section id="about" class="content-section text-center">
+      <h1>About us</h1>
+<p class="text-center">We are the Mathematics Undergraduate Student Association of the University of California, Berkeley!</p>
+<img src="img/intro-bg2.jpg" class="banner" alt="We are MUSA!">
+<div class="resource">
+<p>We strive to improve the overall quality of studying mathematics here as an undergraduate, especially by
+advocating for issues that benefit the entire undergraduate math community, not only the subset that attends our
+events.</p>
+<p>Joining MUSA is an excellent way to connect with other math enthusiasts. You can learn about the many
+opportunities for math students, including little tricks that will help you survive the rigorous math curriculum
+here.</p>
+<p><strong>Our office</a>,
+938 Evans</strong>, is usually open, selling hoodies and food &mdash; but we encourage students to come in just
+to chat about math or life. We won't bite!</p>
+<p>We encourage students to come to our <strong>Thursday events, held in 1015 Evans</strong>, where
+you can meet fellow math geeks and get valuable information. Our events are open to the public,
+<strong>not just declared math majors</strong> &mdash;
+so don't be a stranger!</p>
+<p>Most annoucements are done over MUSA's mailing list.</p>
+</div>
+<div id="mailform">
+<form action="https://berkeley.us18.list-manage.com/subscribe/post?u=8e44277f83c4f8f89d7ca4fdd&amp;id=fe391591f4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+<label for="mce-EMAIL" style="font-weight:bold;padding-bottom:10px;font-size:20px;display:block;">Subscribe to our mailing list!</label>
+<input value="" name="EMAIL" class="email" id="mce-EMAIL" required="" placeholder="Email address" type="email"><input value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" type="submit">
+
+</form>
+</div>
+</section>
+
+<!-- Events Section -->
+<section id="events" class="content-section resource">
+      <h2>Weekly Events</h2>
+<p>We hold events every week throughout the semester. Typically, our events are held at
+<strong>6pm-8pm at Evans 1015</strong>, the top floor lounge of Evans Hall. Our upcoming events
+can be seen in the calendar.</p>
+<p>
+  <iframe src="https://calendar.google.com/calendar/embed?src=musa.berkeley%40gmail.com&amp;mode=AGENDA&amp;ctz=America%2FLos_Angeles" style="border: 0" scrolling="no" width="100%" height="600" frameborder="0"></iframe>
+</p>
+</section>
+
+<section id="monday" class="content-section resource">
+<h3>Math Monday</h3>
+<p>The Math Monday undergraduate lecture series is the flagship event of MUSA. It is a series of talks, every Monday at 5 PM, given by professors and other academics about mathematical research and special topics. (<a href="monday.html">Archive</a>)</p>
+<h4>Intro to Erotic Theory</h4>
+<p>James Leng</p>
+<p>16 January &mdash; 1015 Evans</p>
+<p>We discuss ergo-dick.</p>
+</section>
+
+<section id="problem" class="content-section resource">
+<h3>Featured Problem</h3>
+<p>At MUSA, we love to talk about tricky math problems of all levels! Here's some of our favorite problems. If you can't figure them out yourself, try asking at office hours and see if anyone else can make heads or tails of them. (<a href="problems.html">Archive</a>)
+<h4>Topological invariants and the open mapping theorem</h4>
+<p><strong>Prerequisite</strong>: Math 185; Math 142 or Math 202A will help</p>
+<p>Say that a metric space X is locally connected if for each point x of X there is a connected open set U containing x. Let K be a locally connected compact subset of the complex plane and V(K) denote the vector space of all holomorphic functions V(K) → C. Give a formula for the dimension of V(K) in terms of topological invariants of K.</p>
+
+</section>
+
+
+  <!-- Footer -->
+<div style="clear:both;"></div>
+<footer>
+<div class="container text-center">
+<p style="color: gray; font-size: small">
+MUSA is a Registered Student Organization acting independently of the
+University of California. <br />
+We take full responsibility for our organization and this web site. <br />
+Report problems with the site to the <a href="/officers/">current webmaster</a>.<br/>
+<!--&copy; MUSA 2018--><br />
+<br/><br/><a href="https://www.ocf.berkeley.edu">
+<img src="/img/ocfbadge_mini8dark.png"
+ alt="Hosted by the OCF" style="border: 0;" />
+</a></p>
+
+</div>
+</footer>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
